@@ -10,18 +10,14 @@ int m1Dir = 1;
 bool but1 = 0;
 bool but2 = 0;
 
-
-
 void encHandler() {
   robot.doEncoder();
 }
-
 
 void setup() {
   // put your setup code here, to run once:
   attachInterrupt(digitalPinToInterrupt(2), encHandler, CHANGE);
   attachInterrupt(digitalPinToInterrupt(3), encHandler, CHANGE);
-
   Serial.begin(9600);
 
 }
