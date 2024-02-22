@@ -23,7 +23,7 @@ Serial.println(String(but1));
     delay(650);
     Serial.println("motor");
     robot.moveMotor(1,1,0);
-    delay(2000);
+    //delay(2000);
 
     //Run pneumatic once for 2 seconds then cut it
     robot.digital(1,1);
