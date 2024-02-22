@@ -5,7 +5,7 @@ myDuino robot(1);
 int IRdist = 0;
 bool switch1 = 0;
 int dist = 0;
-int x = 1;
+int x = 12;
 
 void setup() {
   // put your setup code here, to run once:
